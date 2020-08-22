@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../images/restricted.jpeg");
+}
+.form{
+    width: 50%;
+    background: black;
+    padding: 20px 40px;
+    color:khaki;
+    transition: 0.5s;
+    margin-top: 100px;
+    margin:0 auto;
+
+}
+.content{
+    width: 100%;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+    margin-bottom: 40px;
+
+
+}

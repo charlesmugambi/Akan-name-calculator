@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container"></div>
+        <div class="content">
+            <h1><u>Akhan Names.</u></h1>
+            <p>
+                The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+                Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.
+            </p>
+        </div>
+    </div>
+    <div class="form">
+        <h2>In put your details if you would like to know your akan name. </h2>
+        <form  class ="needs-validation" novalidate>
+             <input type="number" id="day" class="form-control" value="" placeholder="Day" min="1" max="31" ><br>
+             <input type="number" id="month" class="form-control"  value="" placeholder="Month" min="1" max="12"><br><br>
+             <input type="text" id="year"  value="" placeholder="Year" ><br><br>
+             <input type="radio" id="male"  name="gender" value="male"><strong>Male</strong>
+             <input type="radio" id="female"  name="gender" value="female" ><strong>Female</strong><br><br>
+             <input type="submit" id="submit" class="btn btn-secondary" onclick="getuserInfo()"  value="Generate">
+            </form>
+    </div>
+
+      
+        
+    <script src="index.js"></script>
+</body>
+</html>
